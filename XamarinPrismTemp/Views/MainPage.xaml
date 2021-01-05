@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinPrismTemp.Views.MainPage"
+             Title="抽選">
+
+  <StackLayout>
+    <Label Text="{Binding LabelText.Value}"
+           HorizontalOptions="CenterAndExpand"
+           FontSize="Large"/>
+    <Button Text="抽選！！！"
+          Command="{Binding LotteryCommand}"/>
+  </StackLayout>
+
+</ContentPage>
